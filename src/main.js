@@ -7,7 +7,7 @@ let index = 0;
 
 yesButton.addEventListener("click", () => {
   question.innerText = "Sabia que dirias que si,  Te amo"
-  img.src = "./src/image-2.gif"
+  img.src = "./public/image-2.gif"
   yesButton.style.display = "none";
   noButton.style.display = "none";
   question.style.fontSize = "100px";
@@ -35,7 +35,7 @@ function showMessage(index) {
 }
 
 function changePic(index) {
-  let url = ["./src/image-3.png", "./src/image-4.gif", "./src/image-5.gif", "./src/image-6.gif"];
+  let url = ["./public/image-3.png", "./public/image-4.gif", "./public/image-5.gif", "./public/image-6.gif"];
   if (index < url.length) {
     img.src = url[index];
   }
