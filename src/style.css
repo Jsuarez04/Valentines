@@ -1,0 +1,37 @@
+#containerDad {
+  display: grid;
+  place-items: center;
+}
+
+#containerSon {
+  text-align: center;
+}
+
+
+#text {
+  color: rgb(255, 255, 255);
+  background-color: rosybrown;
+  font-size: 50px;
+  border-radius: 30% 12% 35% 30%;
+}
+
+body {
+  background-color: rgb(233, 183, 183);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#no-button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 30px;
+  padding: auto;
+  margin: 10px
+}
+
+#yes-button {
+  background-color: rgb(0, 255, 21);
+  color: white;
+  font-size: 30px;
+  padding: auto;
+  margin: 10px
+}
